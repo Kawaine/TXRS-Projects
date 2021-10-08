@@ -15,8 +15,8 @@ public class TableQuiz : MonoBehaviour
     public TableInfo[] tables;
     [Space] public GameObject EndMenu;
 
-    int roundTimerStartValue = 10;
-    int roundTimerWrongValue = 5;
+    float roundTimerStartValue = 9.99f;
+    float roundTimerWrongValue = 5;
     bool playerGuessedCorrectly = false;
 
     private int roundNum_ = 1;
